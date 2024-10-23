@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    border: 50px;
+
+}
+
+th {
+    background-color: blue;
+    color: lightblue;
+
+}
+
+td {
+    text-align: center;
+    color: blue;
+}
+
+.container1 {
+
+
+    margin-bottom: 950px;
+    margin-top: 80px;
+    display: flex;
+
+
+
+}
+
+table,
+th,
+td {
+    border: 1px solid blue;
+    border-collapse: collapse;
+
+
+
+}
+
+button {
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+
+.main {
+    display: flex;
+
+}
+
+
+ul {
+    display: block;
+
+    list-style: none;
+
+}
+
+
+
+.dropdown>li>a ul {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.dropdown>li>a:hover {
+    background-color: black;
+}
+
+*/ .dropdown {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+*/
+/* .dropdown li a:hover{
+    background-color: white;
+
+}
+.dropdown:hover{
+    display: flex;
+} */
